@@ -27,6 +27,7 @@ h3 {
 
 p{
 	color: #fff;
+	font-size: 30px; 
 }
 
 a{
@@ -59,9 +60,10 @@ grid-row-gap: 0px;
 }
 
 .sleep-img {
-  height: 350px;
+  height: 500px;
   background-repeat: no-repeat;
-  background-position: center;
-  background-size: auto;
-  background-image: url("sleeping.png")
+  background-position: right;
+  background-size: 70vw;
+  background-image: url("sleeping.png");
+  position:relative;
 }
