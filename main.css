@@ -9,6 +9,26 @@
 	text-decoration: none;
 }
 
+h2 {
+	color: #fff;
+	font-size: 40px; 
+	font-family: "Space Mono", mono space;
+	font-weight: 400;
+}
+
+h3 {
+	color: #fff;
+	margin-top: -10px;
+	margin-bottom: -10px;
+	font-size: 20px; 
+	font-family: "Space Mono", mono space;
+	font-weight: 400;
+}
+
+p{
+	color: #fff;
+}
+
 .div-block {
 	position: static;
 	background-color: white;
@@ -18,4 +38,17 @@
 	margin-bottom: 0px;
 	color: #0520b8;
 	text-align: right;
+}
+
+.grid-container { 
+display: grid; 
+grid-template-columns: auto auto auto auto ; 
+grid-template-rows: repeat(4, 1fr); 
+grid-column-gap: 10px;
+grid-row-gap: 0px; 
+}
+
+.grid-item {
+  padding: 0px;
+  text-align: center;
 }
