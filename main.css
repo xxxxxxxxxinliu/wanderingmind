@@ -1,0 +1,21 @@
+.heading {
+	margin-top: 0px;
+	margin-bottom: -10px;
+	font-family: "Space Mono", mono space;
+	color: #fff;
+	font-size: 80px;
+	line-height: :100px;
+	font-weight: 400;
+	text-decoration: none;
+}
+
+.div-block {
+	position: static;
+	background-color: white;
+}
+
+.paragraph{
+	margin-bottom: 0px;
+	color: #0520b8;
+	text-align: right;
+}
