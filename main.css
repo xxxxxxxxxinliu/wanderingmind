@@ -29,6 +29,11 @@ p{
 	color: #fff;
 }
 
+a{
+	color: #fff;
+}
+
+
 .div-block {
 	position: static;
 	background-color: white;
@@ -51,4 +56,12 @@ grid-row-gap: 0px;
 .grid-item {
   padding: 0px;
   text-align: center;
+}
+
+.sleep-img {
+  height: 350px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: auto;
+  background-image: url("sleeping.png")
 }
